@@ -22,37 +22,48 @@ namespace DailyReport
             string questionG = "How many hours did you study today?";
             string reportGoodbye = "Thank you for you answers. An Instructor will respond to this shortly. \nHave a great day! \n(Press \"enter\" to close window)";
 
-            ////User input
-            //string userName;
-            //string userCourse;
-            //int userPage;
-            //bool userHelp;
-            //string userExp;
-            //string userFeedBack;
-            //float userHours;
-
             //***METHODS***
             //Title message & 1st question printed to console.
             Console.WriteLine(reportTitle + questionA);
-            Console.ReadLine();
+            //User input
+            string userName = Console.ReadLine();
+
             //2nd question
             Console.WriteLine(questionB);
-            Console.ReadLine();
+            //User input
+            string userCourse = Console.ReadLine();
+
             //3rd question
             Console.WriteLine(questionC);
-            Console.ReadLine();
+            //User input
+            string userpage = Console.ReadLine();
+                //Convert to int
+                int pageNum = Convert.ToInt32(userpage);
+
             //4th question
             Console.WriteLine(questionD);
-            Console.ReadLine();
+            //User input
+            string userhelp = Console.ReadLine();
+                //Convert to bool
+                bool needHelp = Convert.ToBoolean(userhelp);
+
             //5th question
             Console.WriteLine(questionE);
-            Console.ReadLine();
+            //User input
+            string userexp = Console.ReadLine();
+
             //6th question
             Console.WriteLine(questionF);
-            Console.ReadLine();
+            //User input
+            string userfeedback = Console.ReadLine();
+
             //7th question
             Console.WriteLine(questionG);
-            Console.ReadLine();
+            //User input
+            string userhours = Console.ReadLine();
+                //Convert to int
+                int studyHours = Convert.ToInt32(userhours);
+
             //End of program.
             Console.WriteLine(reportGoodbye);
             Console.ReadLine();
