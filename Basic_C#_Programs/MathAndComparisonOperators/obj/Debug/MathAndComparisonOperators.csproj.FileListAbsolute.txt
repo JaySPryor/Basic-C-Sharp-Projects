@@ -1,0 +1,14 @@
+C:\Users\jayme\source\repos\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.exe.config
+C:\Users\jayme\source\repos\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.exe
+C:\Users\jayme\source\repos\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.pdb
+C:\Users\jayme\source\repos\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.AssemblyReference.cache
+C:\Users\jayme\source\repos\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.CoreCompileInputs.cache
+C:\Users\jayme\source\repos\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.exe
+C:\Users\jayme\source\repos\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.pdb
