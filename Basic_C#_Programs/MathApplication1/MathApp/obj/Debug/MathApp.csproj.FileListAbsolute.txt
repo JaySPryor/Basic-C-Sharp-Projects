@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\bin\Debug\MathApp.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\bin\Debug\MathApp.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\bin\Debug\MathApp.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\obj\Debug\MathApp.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\obj\Debug\MathApp.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\obj\Debug\MathApp.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MathApplication1\MathApp\obj\Debug\MathApp.pdb
