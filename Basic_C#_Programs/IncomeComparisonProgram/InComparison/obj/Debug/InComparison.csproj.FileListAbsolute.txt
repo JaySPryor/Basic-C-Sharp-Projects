@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\bin\Debug\InComparison.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\bin\Debug\InComparison.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\bin\Debug\InComparison.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\obj\Debug\InComparison.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\obj\Debug\InComparison.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\obj\Debug\InComparison.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\IncomeComparisonProgram\InComparison\obj\Debug\InComparison.pdb
