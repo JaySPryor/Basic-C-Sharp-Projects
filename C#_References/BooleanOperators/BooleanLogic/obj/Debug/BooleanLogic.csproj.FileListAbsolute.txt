@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\bin\Debug\BooleanLogic.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\bin\Debug\BooleanLogic.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\bin\Debug\BooleanLogic.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\obj\Debug\BooleanLogic.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\obj\Debug\BooleanLogic.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\obj\Debug\BooleanLogic.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\BooleanOperators\BooleanLogic\obj\Debug\BooleanLogic.pdb
