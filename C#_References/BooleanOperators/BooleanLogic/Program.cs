@@ -20,7 +20,7 @@ namespace BooleanLogic
             //Console.WriteLine(true || true);
             //Console.WriteLine(false || false);
 
-            //// == (is equal too)
+            //// == (is equal too. returns true/false.)
             //Console.WriteLine(true == false);
             //Console.WriteLine(true == true);
             //Console.WriteLine(false == false);
