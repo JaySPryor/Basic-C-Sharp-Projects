@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\obj\Debug\InsuranceProgram.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\obj\Debug\InsuranceProgram.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\bin\Debug\InsuranceProgram.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\bin\Debug\InsuranceProgram.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\bin\Debug\InsuranceProgram.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\obj\Debug\InsuranceProgram.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\InsuranceApprovalProgram\InsuranceProgram\obj\Debug\InsuranceProgram.pdb
