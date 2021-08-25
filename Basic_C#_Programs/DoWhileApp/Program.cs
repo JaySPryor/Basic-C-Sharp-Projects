@@ -15,26 +15,32 @@ namespace DoWhileApp
             string coin = Console.ReadLine();//users answer
             bool rightAnswer = coin == "tails";//Checks if coin is tails (true/false)
 
-            /*
-             * !!--If rightAnswer is true, the while loop skipped.--!!
-             */
-            while (!rightAnswer)//Executes if rightAnswer is false
+            //Executes if rightAnswer is false
+            if (!rightAnswer)
             {
-                switch (coin)//users answer
+                while (!rightAnswer)//Loop that allows user to keep guessing if wrong answer
                 {
-                    case "heads"://selected if "coin" is heads 
-                        Console.WriteLine("Nope. Guess again.");
-                        coin = Console.ReadLine();
-                        break;
-                    case "tails"://selected if "coin" is tails
-                        Console.WriteLine("Youre good at this! \n\nLets try a new game!");
-                        rightAnswer = true;//Changes rightAnswer to true, exits while loop
-                        break;
-                    default://selected if coin is anything besides heads or tails 
-                        Console.WriteLine("uh... no. Guess again.");
-                        coin = Console.ReadLine();
-                        break;
+                    switch (coin)//users initial answer
+                    {
+                        case "heads"://selected if "coin" is heads 
+                            Console.WriteLine("Nope. Guess again.");
+                            coin = Console.ReadLine();
+                            break;
+                        case "tails"://selected if "coin" is tails
+                            Console.WriteLine("Youre good at this! \n\nLets try a new game!");
+                            rightAnswer = true;//Changes rightAnswer to true, exits while loop
+                            break;
+                        default://selected if coin is anything besides heads or tails 
+                            Console.WriteLine("uh... no. Guess again.");
+                            coin = Console.ReadLine();
+                            break;
+                    }
                 }
+            }
+            //Executes is rightAnswer is true
+            else
+            {
+                Console.WriteLine("Youre good at this! \n\nLets try a new game!");
             }
 
             Console.ReadLine();
