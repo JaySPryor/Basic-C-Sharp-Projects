@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\bin\Debug\StringFunctions.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\bin\Debug\StringFunctions.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\bin\Debug\StringFunctions.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\obj\Debug\StringFunctions.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\obj\Debug\StringFunctions.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\obj\Debug\StringFunctions.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\StringFunctions\obj\Debug\StringFunctions.pdb
