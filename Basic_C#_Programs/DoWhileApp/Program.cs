@@ -10,24 +10,27 @@ namespace DoWhileApp
     {
         static void Main(string[] args)
         {
-
+            //First game is a coin flip
             Console.WriteLine("I just flipped a coin! \n\nheads or tails?");
-            string coin = Console.ReadLine();
-            bool rightAnswer = coin == "tails";
+            string coin = Console.ReadLine();//users answer
+            bool rightAnswer = coin == "tails";//Checks if coin is tails (true/false)
 
-            while (!rightAnswer)
+            /*
+             * !!--If rightAnswer is true, the while loop skipped.--!!
+             */
+            while (!rightAnswer)//Executes if rightAnswer is false
             {
-                switch (coin)
+                switch (coin)//users answer
                 {
-                    case "heads":
+                    case "heads"://selected if "coin" is heads 
                         Console.WriteLine("Nope. Guess again.");
                         coin = Console.ReadLine();
                         break;
-                    case "tails":
+                    case "tails"://selected if "coin" is tails
                         Console.WriteLine("Youre good at this! \n\nLets try a new game!");
-                        rightAnswer = true;
+                        rightAnswer = true;//Changes rightAnswer to true, exits while loop
                         break;
-                    default:
+                    default://selected if coin is anything besides heads or tails 
                         Console.WriteLine("uh... no. Guess again.");
                         coin = Console.ReadLine();
                         break;
@@ -35,42 +38,45 @@ namespace DoWhileApp
             }
 
             Console.ReadLine();
-
+            //Executes if rightAnswer is true
             if (rightAnswer)
             {
-
+                //Second game is a number guessing game
                 Console.WriteLine("I'm thinking of a number between 1 and 3. \nCan you guess which one?");
-                int number = Convert.ToInt32(Console.ReadLine());
-                bool isGuessed = number == 3;
+                int number = Convert.ToInt32(Console.ReadLine());//user inputs number
+                bool isGuessed = number == 3;//Checks if number is 3 (true/false)
 
                 do
                 {
                     switch (number)
                     {
-                        case 1:
+                        case 1://Selected If user answer is 1
                             Console.WriteLine("Not quite. Try again.");
                             number = Convert.ToInt32(Console.ReadLine());
                             break;
-                        case 2:
+                        case 2://Selected if user answer is 2
                             Console.WriteLine("So close! Try again.");
                             number = Convert.ToInt32(Console.ReadLine());
                             break;
-                        case 3:
+                        case 3://Selected if user answer is 3, Ends game
                             Console.WriteLine("You guessed the number 3. That is correct! \n\nYOU WIN!");
-                            isGuessed = true;
+                            isGuessed = true;//Sets  isGuessed to true, exits loop.
                             break;
-                        default:
+                        default://Selected if user answer is not 1-3
                             Console.WriteLine("Not even close...");
                             number = Convert.ToInt32(Console.ReadLine());
                             break;
                     }
                 }
-                while (!isGuessed);
-                Console.ReadLine();
+                while (!isGuessed);//Checks if isGuessed is not true
+
+                Console.ReadLine();//Exit program
             }
+
+            //In case rightAnswer is not true
             else
             {
-                Console.ReadLine();
+                Console.ReadLine();//Exit Program
             }
 
         }
