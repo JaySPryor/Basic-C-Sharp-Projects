@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\bin\Debug\ArrayApp.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\bin\Debug\ArrayApp.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\bin\Debug\ArrayApp.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\obj\Debug\ArrayApp.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\obj\Debug\ArrayApp.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\obj\Debug\ArrayApp.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\ArrayApp\obj\Debug\ArrayApp.pdb
