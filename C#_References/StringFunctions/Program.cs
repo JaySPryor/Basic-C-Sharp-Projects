@@ -26,6 +26,8 @@ namespace StringFunctions
             StringBuilder sb = new StringBuilder();
 
             sb.Append("My name is Jesse");
+            sb.Append("\nNow my name is Jaymes.");
+            
 
             Console.WriteLine(sb);
             Console.ReadLine();
