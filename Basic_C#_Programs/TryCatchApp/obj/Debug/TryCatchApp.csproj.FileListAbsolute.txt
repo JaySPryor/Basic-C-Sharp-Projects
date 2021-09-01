@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\bin\Debug\TryCatchApp.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\bin\Debug\TryCatchApp.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\bin\Debug\TryCatchApp.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\obj\Debug\TryCatchApp.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\obj\Debug\TryCatchApp.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\obj\Debug\TryCatchApp.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TryCatchApp\obj\Debug\TryCatchApp.pdb
