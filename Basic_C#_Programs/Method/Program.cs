@@ -10,11 +10,6 @@ namespace Method
     {
         static void Main(string[] args)
         {   
-            /*
-             *-------------!ATTENTION!---------------
-             *If user types a non integer or enters a blank 
-             *answer, a format exception is thrown. 
-             */
 
             //Request for first number
             Console.WriteLine("Type a number.");
@@ -25,6 +20,7 @@ namespace Method
             //empty vars
             int userInt2;
             int result;
+
             if (int.TryParse(Console.ReadLine(), out userInt2))
             {
                 //if int, Takes user input, out & saves as userInt2, saves multiTool() answer as result
