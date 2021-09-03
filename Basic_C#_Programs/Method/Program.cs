@@ -9,15 +9,15 @@ namespace Method
     class Program
     {
         static void Main(string[] args)
-        {
-            
+        {   
             
             Console.WriteLine("Type a number.");
             int userInt = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Type a second number to multiply by the first, OR press enter to automatically double the first number.");
+            Console.WriteLine("Type a second number to multiply by the first, OR type 0 to automatically double the first number.");
             string userString = Console.ReadLine();
-            if (userString == null || userString == "0")
+
+            if (userString == "0")
             {
                 int result = Operation.multiTool(userInt);
                 Console.WriteLine(userInt + " times 2 equals " + result);
