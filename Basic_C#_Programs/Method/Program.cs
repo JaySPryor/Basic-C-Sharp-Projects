@@ -18,19 +18,27 @@ namespace Method
 
             //Request for first number
             Console.WriteLine("Type a number.");
-            int userInt = Convert.ToInt32(Console.ReadLine());//converted from string and saved as int userInt 
+            int userInt1 = Convert.ToInt32(Console.ReadLine());//converted from string and saved as int userInt1
 
             //Request for second number, or to use default
             Console.WriteLine("Type a second number to multiply by the first, OR press enter to double the first number.");
-            string userString = Console.ReadLine();//string saved 
+            //empty vars
+            int userInt2;
+            int result;
+            if (int.TryParse(Console.ReadLine(), out userInt2))
+            {
+                //if int, Takes user input, out & saves as userInt2, saves multiTool() answer as result
+                result = Operation.multiTool(userInt1, userInt2);
+                Console.WriteLine(userInt1 + " multiplied by " + userInt2 + " is: ");
+            }
+            else
+            {
+                //Passes userInt to multiTool() & uses defualt value, saves answer as result
+                result = Operation.multiTool(userInt1);
+                Console.WriteLine(userInt1 + " doubled is: ");
+            }
 
-            
-            
-            int optionalInt = Convert.ToInt32(userString);//converts user input to int, saves as optionalInt
-            int result = Operation.multiTool(userInt, optionalInt);//Passes userInt & optionalInt to multiTool(), returns result
-            Console.WriteLine(userInt + " times " + optionalInt + " equals " + result);
-            
-
+            Console.WriteLine(result);//Result of multiTool()
             Console.ReadLine();
 
 
