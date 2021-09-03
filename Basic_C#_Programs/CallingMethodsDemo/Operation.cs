@@ -13,7 +13,7 @@ namespace CallingMethodsDemo
         public int defaultNum { get; set; }//This will be set to the int 2
 
         //timesTwo() takes user in and multiplies by 2
-        public static int timesTwo(int userNum, int defaultNum)//sets userNum & defaultNum as parameters
+        public static int timesTwo(int userNum, int defaultNum)//sets userNum & default as parameters
         {
             return userNum * defaultNum;//returns result of operation
         }
