@@ -10,6 +10,16 @@ namespace InheritanceDemo
     {
         static void Main(string[] args)
         {
+            //Instance of Employee class object employee
+            Employee employee = new Employee();
+            employee.FirstName = "Sample";//saves string Sample as FirstName
+            employee.LastName = "Student";//saves string Student as LastName
+
+            //Super-class method, prints full name to console
+            employee.SayName();
+
+            Console.ReadLine();
+
         }
     }
 }
