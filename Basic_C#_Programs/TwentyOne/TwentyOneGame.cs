@@ -6,16 +6,26 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class TwentyOneGame : Game
+    //Class inherits from abstract Game class, IWalkAway interface 
+    public class TwentyOneGame : Game, IWalkAway
     {
+        //inherited abstract method
         public override void Play()
         {
             throw new NotImplementedException();
         }
+
+        //inherited abstract method
         public override void ListPlayers()
         {
             Console.WriteLine("21 Players: ");
             base.ListPlayers();
+        }
+
+        //inherited interface method
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
     }
 }
