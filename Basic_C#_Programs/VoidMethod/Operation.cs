@@ -25,19 +25,19 @@ namespace VoidMethod
         public int HalfSum(int a, int b, out string d, out int c)//Takes in two int values, outputs one string & one int value
         {
             
-            c = a + b;//sum of two int values, saved as d
+            c = a + b;//sum of two int values, saved as c
             int e = c / 2;//quotient of d / 2, saved as int e
             d = a + " plus " + b + " divided by 2 equals " + e;//string value, saved as d
             return e;//returns int value
         }
 
         //Overloaded Method
-        public string HalfSum(int a, int b)
+        public string HalfSum(int a, int b)//Takes two int values, returns one string value
         {
-            int c = a + b;//sum of two int values, saved as int d
+            int c = a + b;//sum of two int values, saved as int c
             int e = c / 2;//quotient of d / 2, saved as int e
             string d = a + " plus " + b + " divided by 2 equals " + e;//string value, saved as d
-            return d;//returns int value
+            return d;//returns string value
         }
 
 
