@@ -7,14 +7,22 @@ using System.Threading.Tasks;
 namespace AbstractClass
 {
     //Inherits from Person class
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         //implementation of abstract method from Person class (use override keyword)
-        public override void SayName()
+        public override string SayName()
         {
-            //Prints first & last name to console
-            Console.WriteLine(firstName + " " + lastName);
+            //Cocatenates first & last name and saves as fullName, Prints fullName to console, returns string fullName
+            string fullName = firstName + " " + lastName;
+            Console.WriteLine("Full name: " + fullName);
+            return fullName;
         }
 
+        //interface method
+        public void Quit(string employee)
+        {
+            //display message to console
+            Console.WriteLine(employee + " has terminated employment.");
+        }
     }
 }

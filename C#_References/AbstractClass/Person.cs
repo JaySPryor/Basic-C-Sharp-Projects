@@ -14,6 +14,6 @@ namespace AbstractClass
         public string lastName { get; set; }
 
         //Abstract method
-        public abstract void SayName();
+        public abstract string SayName();
     }
 }

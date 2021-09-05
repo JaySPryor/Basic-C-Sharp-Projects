@@ -22,7 +22,7 @@ namespace TwentyOne
             base.ListPlayers();
         }
 
-        //inherited interface method
+        //inherited interface
         public void WalkAway(Player player)
         {
             throw new NotImplementedException();
