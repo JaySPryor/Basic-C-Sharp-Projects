@@ -10,17 +10,6 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            //polymorph Game object using twentyOneGame
-            Game game = new TwentyOneGame();
-            //list of players
-            game.Players = new List<Player>();
-            //instance of Player object
-            Player player = new Player();
-            player.Name = "Jay";//saved string as player Name
-            //using overloaded operator + (shorthand +=)
-            game += player;
-            //overloaded - operator
-            game -= player;
 
             //Instance of new Deck object
             Deck deck = new Deck();
@@ -31,8 +20,9 @@ namespace TwentyOne
             {
                 Console.WriteLine(card.Face + " of " + card.Suit);
             }
+
             //displays number of cards in deck
-            Console.WriteLine(deck.Cards.Count);
+            Console.WriteLine("\nThis deck has " + deck.Cards.Count + " cards.");
             Console.ReadLine();
         }
 
