@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\bin\Debug\EnumDemo.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\bin\Debug\EnumDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\bin\Debug\EnumDemo.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\obj\Debug\EnumDemo.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\obj\Debug\EnumDemo.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\obj\Debug\EnumDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\EnumDemo\obj\Debug\EnumDemo.pdb
