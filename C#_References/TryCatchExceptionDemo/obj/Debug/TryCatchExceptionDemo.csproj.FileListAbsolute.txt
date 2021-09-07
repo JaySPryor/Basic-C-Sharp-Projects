@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\bin\Debug\TryCatchExceptionDemo.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\bin\Debug\TryCatchExceptionDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\bin\Debug\TryCatchExceptionDemo.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\obj\Debug\TryCatchExceptionDemo.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\obj\Debug\TryCatchExceptionDemo.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\obj\Debug\TryCatchExceptionDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\TryCatchExceptionDemo\obj\Debug\TryCatchExceptionDemo.pdb
