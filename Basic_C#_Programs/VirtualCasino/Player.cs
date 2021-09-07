@@ -22,6 +22,7 @@ namespace VirtualCasino
         public List<Card> Hand { get { return _hand; } set { _hand = value; } }//Card List of cards named Hand
         public int Balance { get; set; }//money balance
         public string Name { get; set; }//player name
+        public Guid Id { get; set; }//Guid id
         public bool isActivePlayer { get; set; }//true/false is an active player
         public bool Stay { get; set; }//true/false if player stays
 

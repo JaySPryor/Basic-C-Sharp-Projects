@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using VirtualCasino;
 using VirtualCasino.TwentyOne;
 
@@ -8,8 +9,11 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            //Set Casino name to a constant 
+            const string casinoName = "The virtual casino";
+
             //First greeting
-            Console.WriteLine("Welcom to the virtual casino. What's your name?");
+            Console.WriteLine("Welcom to {0}! What's your name?", casinoName);
             string playerName = Console.ReadLine();//saves player name
 
             //Request for player balance
@@ -27,6 +31,15 @@ namespace TwentyOne
 
                 //player object
                 Player player = new Player(playerName, bank);
+                //Create GUID for new player
+                player.Id = Guid.NewGuid();
+
+                //Log GUID to text file
+                using (StreamWriter file = new StreamWriter(@"D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\TwentyOne\Logs\log.txt", true))
+                {
+                    file.WriteLine(DateTime.Now);
+                    file.WriteLine(player.Id);
+                }
 
                 //new TwentyOneGame, uses polymorphism
                 Game game = new TwentyOneGame();
