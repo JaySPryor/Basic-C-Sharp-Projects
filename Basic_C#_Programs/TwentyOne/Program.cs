@@ -56,7 +56,24 @@ namespace TwentyOne
                 //while player is active & has a positive balance
                 while(player.isActivePlayer && player.Balance > 0)
                 {
-                    game.Play();
+                    //Main game is wrapped in try/catch block to catch any exceptions & display error messages
+                    try
+                    {
+                        //Main game
+                        game.Play();
+                    }
+                    catch (FraudException)//exception used when someone is suspected of trying to cheat
+                    {
+                        Console.WriteLine("Your attempt to cheat the system has been found. You have bee banned from {0}.", casinoName);
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error has occured! Please contact the administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
 
                 game -= player;//removes player if they exit while loop

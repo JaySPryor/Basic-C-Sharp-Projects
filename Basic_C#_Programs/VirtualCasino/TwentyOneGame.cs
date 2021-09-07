@@ -42,6 +42,13 @@ namespace VirtualCasino.TwentyOne
                     if (!validAnswer) Console.WriteLine("Please enter digits only and no decimals.");//if still !validAnswer, clarify & restart loop
                 }
 
+                //used to stop game if player bet is < 0
+                if (bet < 0)
+                {
+                    //custom exception class
+                    throw new FraudException();
+                }
+
                 bool successfullyBet = player.Bet(bet);//sets successfullyBet to true/false
                 
                 //if false
