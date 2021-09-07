@@ -9,7 +9,7 @@ namespace LambdaExpression
     //Employee class
     public class Employee
     {
-        //class props
+        //class props 
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int ID { get; set; }

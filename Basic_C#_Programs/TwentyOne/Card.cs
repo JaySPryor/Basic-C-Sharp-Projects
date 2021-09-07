@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Card
+    public struct Card
     {
         //Card Properties
         public Suit Suit { get; set; }
         public Face Face { get; set; }
+
+        //Custom ToString method
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);//when Card.ToString is called, returns card face & suit 
+        }
 
     }
     //enum class Suit

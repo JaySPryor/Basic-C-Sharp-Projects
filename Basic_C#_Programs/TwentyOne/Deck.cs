@@ -36,16 +36,17 @@ namespace TwentyOne
         {
             for (int i = 0; i < times; i++)
             {
-                List<Card> TempList = new List<Card>();
-                Random random = new Random();
+                List<Card> TempList = new List<Card>();//creates new temp list to store shuffled cards in
+                Random random = new Random();//instance of random class object
 
+                //while there are cards in the deck...
                 while (Cards.Count > 0)
                 {
-                    int randomIndex = random.Next(0, Cards.Count);
-                    TempList.Add(Cards[randomIndex]);
-                    Cards.RemoveAt(randomIndex);
+                    int randomIndex = random.Next(0, Cards.Count);//pick a random card...
+                    TempList.Add(Cards[randomIndex]);//add it to temp list...
+                    Cards.RemoveAt(randomIndex);//remove it from the deck...
                 }
-                Cards = TempList;
+                Cards = TempList;//save temp list as cards
             }
         }
     }
