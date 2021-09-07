@@ -16,9 +16,16 @@ namespace TwentyOne
             Console.WriteLine("Welcom to {0}! What's your name?", casinoName);
             string playerName = Console.ReadLine();//saves player name
 
-            //Request for player balance
-            Console.WriteLine("How much credit are you playing with today?");
-            int bank = Convert.ToInt32(Console.ReadLine());//saves player balance
+            //block used to catch any exceptions(format exceptions)
+            bool validAnswer = false;
+            int bank = 0;
+            //while validAnswer is false...
+            while (!validAnswer)
+            {
+                Console.WriteLine("How many credits are you playing with today?");//ask for player to input credit amount
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);//use TryParse to return bool, and out credit (bank) amount
+                if (!validAnswer) Console.WriteLine("Please enter digits only and no decimals.");//if still !validAnswer, clarify and repeat loop
+            }
 
             //Asks if user wants to play a game
             Console.WriteLine("Hello, {0}. Would you like to play a game of 21?", playerName);

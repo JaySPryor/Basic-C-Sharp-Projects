@@ -28,12 +28,20 @@ namespace VirtualCasino.TwentyOne
             Dealer.Deck = new Deck();//new deck every round
             Dealer.Deck.Shuffle();//shuffle deck
 
-            Console.WriteLine("Place your bet!");
-
             //loop that takes player bets
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());//takes each players bet
+                //use block of code to catch format exceptions
+                bool validAnswer = false;
+                int bet = 0;
+                //while validAnswer if false...
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bet!");//ask for user to place bet
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);//user TryParse to set validAnswer(bool) and out user bet
+                    if (!validAnswer) Console.WriteLine("Please enter digits only and no decimals.");//if still !validAnswer, clarify & restart loop
+                }
+
                 bool successfullyBet = player.Bet(bet);//sets successfullyBet to true/false
                 
                 //if false
