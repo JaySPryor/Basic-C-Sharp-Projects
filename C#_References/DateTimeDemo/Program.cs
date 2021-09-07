@@ -10,8 +10,10 @@ namespace DateTimeDemo
     {
         static void Main(string[] args)
         {
-            //Request for user to input a number
-            Console.WriteLine("Type a number to predict the future!");
+           
+
+            //Displays current DateTime & Request for user to input a number
+            Console.WriteLine(DateTime.Now + "\nType a number to predict the future!");
             int x = Convert.ToInt32(Console.ReadLine());//saves input as x(int)
             //saves current time
             DateTime currentTime = DateTime.Now;
