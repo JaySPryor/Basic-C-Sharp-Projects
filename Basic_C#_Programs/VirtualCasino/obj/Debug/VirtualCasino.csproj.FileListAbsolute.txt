@@ -1,0 +1,6 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\VirtualCasino\bin\Debug\VirtualCasino.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\VirtualCasino\bin\Debug\VirtualCasino.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\VirtualCasino\obj\Debug\VirtualCasino.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\VirtualCasino\obj\Debug\VirtualCasino.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\VirtualCasino\obj\Debug\VirtualCasino.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\VirtualCasino\obj\Debug\VirtualCasino.pdb

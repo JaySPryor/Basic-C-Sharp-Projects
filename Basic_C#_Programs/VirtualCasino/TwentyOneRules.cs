@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace VirtualCasino.TwentyOne
 {
     //Class of static methods
     public class TwentyOneRules

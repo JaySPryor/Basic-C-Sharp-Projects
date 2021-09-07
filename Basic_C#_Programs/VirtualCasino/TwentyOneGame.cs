@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualCasino.Interfaces;
 
-namespace TwentyOne
+namespace VirtualCasino.TwentyOne
 {
     //Class inherits from abstract Game class, IWalkAway interface 
     public class TwentyOneGame : Game, IWalkAway
