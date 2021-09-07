@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\bin\Debug\DateTimeDemo.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\bin\Debug\DateTimeDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\bin\Debug\DateTimeDemo.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\obj\Debug\DateTimeDemo.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\obj\Debug\DateTimeDemo.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\obj\Debug\DateTimeDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\DateTimeDemo\obj\Debug\DateTimeDemo.pdb
