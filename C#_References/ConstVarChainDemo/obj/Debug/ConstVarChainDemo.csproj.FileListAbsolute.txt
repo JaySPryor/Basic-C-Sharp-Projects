@@ -1,0 +1,7 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\bin\Debug\ConstVarChainDemo.exe.config
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\bin\Debug\ConstVarChainDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\bin\Debug\ConstVarChainDemo.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\obj\Debug\ConstVarChainDemo.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\obj\Debug\ConstVarChainDemo.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\obj\Debug\ConstVarChainDemo.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\ConstVarChainDemo\obj\Debug\ConstVarChainDemo.pdb
