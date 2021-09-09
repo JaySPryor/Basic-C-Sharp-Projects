@@ -77,3 +77,9 @@ D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\obj\D
 D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CopyComplete
 D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.dll
 D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\bin\EntityFramework.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\bin\EntityFramework.SqlServer.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\bin\EntityFramework.xml
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\bin\EntityFramework.SqlServer.xml
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.Properties.Resources.resources
+D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.GenerateResource.cache
