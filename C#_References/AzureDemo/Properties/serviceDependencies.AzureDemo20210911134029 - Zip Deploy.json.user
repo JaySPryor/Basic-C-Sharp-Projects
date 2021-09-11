@@ -1,0 +1,30 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "AzureDemo20210911134029.resourceName": {
+      "Name": "AzureDemo20210911134029.resourceName",
+      "Type": null,
+      "Value": "AzureDemo20210911134029"
+    },
+    "AzureDemo20210911134029.subscriptionId": {
+      "Name": "AzureDemo20210911134029.subscriptionId",
+      "Type": "subscription",
+      "Value": "d30d7eb8-547e-40fe-9c6c-bc8244f1ff32"
+    },
+    "AzureDemo20210911134029.resourceGroupLocation": {
+      "Name": "AzureDemo20210911134029.resourceGroupLocation",
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "d30d7eb8-547e-40fe-9c6c-bc8244f1ff32"
+    },
+    "AzureDemo20210911134029.resourceGroupName": {
+      "Name": "AzureDemo20210911134029.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "AzureDemo20210911134029ResourceGroup"
+    }
+  }
+}
