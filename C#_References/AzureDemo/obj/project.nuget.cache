@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "+YIOvWMiwYCYIRr38OWwPqiFF8KoAc0JztUcVgJO8jKznYcZogPD7Ih+j1igP6QhJjyLJ0CnDwABu/lJxpuiOQ==",
+  "success": true,
+  "projectFilePath": "D:\\School\\GitHub\\Basic-C-Sharp-Projects\\C#_References\\AzureDemo\\AzureDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.17\\microsoft.aspnetcore.mvc.razor.extensions.3.1.17.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.17.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.17\\microsoft.aspnetcore.razor.language.3.1.17.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.3\\microsoft.codeanalysis.analyzers.2.9.3.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\microsoft.codeanalysis.common.3.3.0.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\microsoft.codeanalysis.csharp.3.3.0.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.17\\microsoft.codeanalysis.razor.3.1.17.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\jayme\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
