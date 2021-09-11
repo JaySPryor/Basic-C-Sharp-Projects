@@ -1,7 +1,0 @@
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\obj\Debug\MyConsoleApp.csproj.AssemblyReference.cache
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\obj\Debug\MyConsoleApp.csproj.CoreCompileInputs.cache
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\bin\Debug\MyConsoleApp.exe.config
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\bin\Debug\MyConsoleApp.exe
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\bin\Debug\MyConsoleApp.pdb
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\obj\Debug\MyConsoleApp.exe
-D:\School\GitHub\Basic-C-Sharp-Projects\Basic_C#_Programs\MyConsoleApp\obj\Debug\MyConsoleApp.pdb
