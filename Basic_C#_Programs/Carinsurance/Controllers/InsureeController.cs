@@ -20,6 +20,11 @@ namespace Carinsurance.Controllers
             return View(db.Insurees.ToList());
         }
 
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
+        }
+
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -50,9 +55,10 @@ namespace Carinsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = QuoteGenerator(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
 
             return View(insuree);
@@ -82,6 +88,7 @@ namespace Carinsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = QuoteGenerator(insuree);
                 db.Entry(insuree).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -122,6 +129,74 @@ namespace Carinsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        //Method to generate a quote
+        public decimal QuoteGenerator(Insuree insuree)
+        {
+            insuree.Quote = 50.0m;
+            int insureeAge = DateTime.Now.Year - insuree.DateOfBirth.Year;
+            //if (DateTime.Now.DayOfYear < dateOfBirth.DayOfYear) insureeAge -= 1;
+            
+            //Check age
+            if (insureeAge < 18)
+            {
+                insuree.Quote += 100;
+            }
+            if (insureeAge > 18 && insureeAge < 25)
+            {
+                insuree.Quote += 50;
+            }
+            if (insureeAge > 25)
+            {
+                insuree.Quote += 25;
+            }
+
+            //Check car
+            //car year
+            if (insuree.CarYear < 2000)
+            {
+                insuree.Quote += 25;
+            }
+
+            if (insuree.CarYear > 2015)
+            {
+                insuree.Quote += 25;
+            }
+            //car make
+            if (insuree.CarMake == "Porsche")
+            {
+                insuree.Quote += 25;
+            }
+            //car model
+            if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
+            {
+                insuree.Quote += 25;
+            }
+
+            for (int i = 0; i < insuree.SpeedingTickets; i++)
+            {
+                insuree.Quote += 10;
+            }
+
+            ////Driving record
+            ////speeding tickets
+            //int ticketCost = speedingTickets * 10;
+            //insuree.Quote += ticketCost;
+
+            //dui
+            if (insuree.DUI == true)
+            {
+                insuree.Quote *= 1.25m;
+            }
+
+            //check coverage
+            if (insuree.CoverageType == true)
+            {
+                insuree.Quote *= 1.50m;
+            }
+
+            return insuree.Quote;
         }
     }
 }
