@@ -1,0 +1,16 @@
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\helloworld2.exe
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\helloworld2.deps.json
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\helloworld2.runtimeconfig.json
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\helloworld2.runtimeconfig.dev.json
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\helloworld2.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\ref\helloworld2.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\bin\Debug\net5.0\helloworld2.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.csproj.AssemblyReference.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.AssemblyInfoInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.AssemblyInfo.cs
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.csproj.CoreCompileInputs.cache
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\ref\helloworld2.dll
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.pdb
+D:\School\GitHub\Basic-C-Sharp-Projects\C#_References\helloworld2\obj\Debug\net5.0\helloworld2.genruntimeconfig.cache
