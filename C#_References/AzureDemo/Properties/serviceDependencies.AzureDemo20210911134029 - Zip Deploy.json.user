@@ -1,5 +1,10 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-09-11T22:48:52.9119857Z"
+    }
+  },
   "parameters": {
     "AzureDemo20210911134029.resourceName": {
       "Name": "AzureDemo20210911134029.resourceName",
@@ -16,15 +21,25 @@
       "Type": null,
       "Value": "southcentralus"
     },
-    "subscriptionId": {
-      "Name": "subscriptionId",
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
       "Type": "subscription",
       "Value": "d30d7eb8-547e-40fe-9c6c-bc8244f1ff32"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "AzureDemo20210911134029ResourceGroup"
     },
     "AzureDemo20210911134029.resourceGroupName": {
       "Name": "AzureDemo20210911134029.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "AzureDemo20210911134029ResourceGroup"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "d30d7eb8-547e-40fe-9c6c-bc8244f1ff32"
     }
   }
 }

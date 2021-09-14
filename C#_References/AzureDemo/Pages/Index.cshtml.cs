@@ -15,7 +15,7 @@ namespace AzureDemo.Pages
 
         public void OnGet()
         {
-            string dateTime = DateTime.Now.ToShortDateString();
+            string dateTime = DateTime.Now.ToString();
             ViewData["TimeStamp"] = dateTime;
         }
     }
